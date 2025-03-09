@@ -13,7 +13,7 @@ st.title("User Management System")
 # map
 def display_map():
     m = folium.Map(
-        location=[-6.2, 106.8], 
+        location=[-6.21, 106.81], 
         zoom_start=11,
         tiles="https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}",
         attr="Google Maps"
